@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact | Company</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+box-sizing: border-box; 
+margin: 0;
+padding: 0;
+}
+body {
+font-family: Algerian,sans-serif; 
+background-color: #f9f9f9; 
+color: #333;
+line-height: 1.6;
+background: url('contact.jpeg') no-repeat center center/cover;
+}
+/* Header Navigation */ 
+header {
+background: #fff; 
+padding: 20px 40px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+display: flex;
+justify-content: space-between; 
+align-items: center;
+}
+.logo {
+font-size: 24px; 
+font-weight: bold;
+}
+nav ul {
+list-style: none; 
+display: flex; 
+gap: 20px;
+}
+nav ul li a {
+text-decoration: none; 
+color: #333;
+font-weight: 500;
+}
+nav ul li a.active, 
+nav ul li a:hover { 
+color: #27ae60;
+}
+/* Contact Section */
+.contact-section { 
+padding: 60px 20px; 
+background-color: #fff; 
+max-width: 900px; 
+margin: auto;
+}
+.contact-section h1 { 
+font-size: 32px; 
+margin-bottom: px; 
+text-align: center;
+}
+.contact-grid { 
+display: flex; 
+flex-wrap: wrap; 
+gap: 30px;
+margin-top: 20px;
+}
+.contact-details,
+.contact-form { 
+flex: 1 1 45%;
+}
+.contact-details h3 { 
+margin-bottom: 2px; 
+color: #27ae60;
+}
+.contact-details p { 
+margin-bottom: 10px;
+}
+.contact-form form input,
+.contact-form form textarea { 
+width: 100%;
+padding: 12px;
+margin-bottom: 15px; 
+border: 1px solid #ccc; 
+border-radius: 6px;
+}
+.contact-form button { 
+padding: 12px 25px; 
+background-color: #27ae60; 
+color: #fff;
+border: none; 
+border-radius: 6px; 
+cursor: pointer;
+}
+.contact-form button:hover { 
+background-color: #219150;
+}
+footer { 
+background: #ddd; 
+text-align: center; 
+padding: 20px; 
+margin-top: 50px; 
+font-size: 14px; 
+color: #555;
+}
+@media(max-width: 768px) {
+.contact-grid {
+flex-direction: column;
+}
+}
+</style>
+</head>
+<body>
+<!-- Header -->
+<header>
+<div class="logo">COMPANY.</div>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+</nav>
+</header>
+<!-- Contact Section -->
+<section class="contact-section">
+<h1>Get in Touch</h1>
+<div class="contact-grid">
+<!-- Contact Details -->
+<div class="contact-details">
+<h3>Contact Info</h3>
+<p><strong>Address:</strong> 123 Corporate Lane, City, Country</p>
+<p><strong>Email:</strong> contact@company.com</p>
+<p><strong>Phone:</strong> +123 456 7890</p>
+<p><strong>Working Hours:</strong> Mon - Fri, 9:00 AM - 6:00 PM</p>
+</div>
+<!-- Contact Form -->
+<div class="contact-form">
+<form action="#" method="post">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" placeholder="Your Message" rows="6" 
+required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+&copy; 2025 COMPANY. All rightsreserved.
+</footer>
+</body>
+</html>

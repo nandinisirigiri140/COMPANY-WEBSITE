@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Pricing | Company</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: 'algerian', sans-serif;
+background-color: #f7f7f7; 
+color: #333;
+}
+header {
+background-color: white;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
+padding: 20px 40px;
+display: flex;
+justify-content: space-between; 
+align-items: center;
+}
+header .logo {
+font-weight: bold; 
+font-size: 24px;
+}
+nav ul { 
+display: flex;
+list-style: none; 
+gap: 25px;
+}
+nav a {
+text-decoration: none; 
+color: #333;
+font-weight: 500; 
+transition: color 0.3s ease;
+}
+nav a:hover,
+nav a.active { 
+color: #27ae60;
+}
+.hero {
+text-align: center; 
+padding: 60px 20px; 
+background-color: #fff;
+background: url('n.jpeg') no-repeat center center/cover;
+}
+.hero h1 {
+font-size: 36px; 
+margin-bottom: 10px;
+}
+.hero p {
+font-size: 18px; 
+color: #666;
+}
+.pricing-section { 
+display: flex;
+justify-content: center; 
+flex-wrap: wrap;
+gap: 30px;
+padding: 50px 20px;
+}
+.plan {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+padding: 30px;
+width: 300px; 
+text-align: center;
+transition: transform 0.3s;
+}
+.plan:hover {
+transform: translateY(-5px);
+}
+.plan h2 {
+color: #2c3e50; 
+margin-bottom: 10px;
+}
+.price {
+font-size: 28px; 
+color: #27ae60; 
+margin: 20px 0;
+}
+.features {
+list-style: none; 
+padding: 0;
+margin: 20px 0;
+color: #555;
+}
+.features li { 
+margin: 10px 0;
+}
+.button {
+background-color: #27ae60; 
+color: white;
+padding: 12px 25px; 
+border-radius: 5px; 
+text-decoration: none; 
+display: inline-block; 
+margin-top: 20px;
+transition: background-color 0.3s;
+}
+.button:hover {
+background-color: #219150;
+}
+footer {
+background-color: #f1f1f1; 
+padding: 20px;
+text-align: center; 
+font-size: 14px; 
+color: #777;
+}
+</style>
+</head>
+<body>
+<!-- Navigation Bar -->
+<header>
+<div class="logo">COMPANY.</div>
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="pricing.html" class="active">Pricing</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<!-- Hero Section -->
+<section class="hero">
+<h1>Choose Your Plan</h1>
+<p>Affordable plans that fit your business needs</p>
+</section>
+<!-- Pricing Plans -->
+<section class="pricing-section">
+<div class="plan">
+<h2>Basic</h2>
+<p class="price">$19/month</p>
+<ul class="features">
+<li>1 Project</li>
+<li>100 MB Storage</li>
+<li>Email Support</li>
+<li>Community Access</li>
+</ul>
+<a href="#" class="button">Start Basic</a>
+</div>
+<div class="plan">
+<h2>Standard</h2>
+<p class="price">$49/month</p>
+<ul class="features">
+<li>5 Projects</li>
+<li>1 GB Storage</li>
+<li>Priority Email Support</li>
+<li>Community Access</li>
+</ul>
+<a href="#" class="button">Start Standard</a>
+</div>
+<div class="plan">
+<h2>Premium</h2>
+<p class="price">$99/month</p>
+<ul class="features">
+<li>Unlimited Projects</li>
+<li>10 GB Storage</li>
+<li>24/7 Phone Support</li>
+<li>Exclusive Resources</li>
+</ul>
+<a href="#" class="button">Start Premium</a>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+© 2025 COMPANY. All rights reserved.
+</footer>
+</body>
+</html>
